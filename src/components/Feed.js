@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import TweetBox from "./TweetBox";
+import Post from "./Post";
 
 export class Feed extends Component {
     render() {
@@ -12,6 +13,7 @@ export class Feed extends Component {
                 {/* TweetBox */}
                 <TweetBox />
                 {/* Post */}
+                <Post />
                 {/* Post */}
                 {/* Post */}
                 {/* Post */}
