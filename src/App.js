@@ -1,16 +1,18 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed";
+import Widgets from "./components/Widgets";
+
 import "./layout/layout.scss";
 
 const App = () => {
     return (
         <div className="app">
-            <h1>Twitter Clone</h1>
             <Sidebar />
             {/* Sidebar */}
-
+            <Feed />
             {/* Feed */}
-
+            <Widgets />
             {/* Widgets */}
         </div>
     );

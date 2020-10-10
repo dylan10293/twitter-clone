@@ -1,15 +1,17 @@
-.sidebar {
-    border-right: 1px solid $twitter-background;
-    flex: 0.3;
-    margin-top: 20px;
-    padding: 0px 20px;
-    min-width: 250px;
+.tweetBox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid $twitter-background;
+    padding-right: 10px;
 
-    .sidebar__twitterIcon {
-        color: $twitter-color;
-        font-size: 30px !important;
-        margin-left: 20px;
-        margin-bottom: 20px;
+    .tweetBox__input {
+        display: flex;
+        padding: 20px;
+        input{
+            flex: 1;
+            margin-left: 20px;
+            font-size: 20px;
+            border:none;
+        }
     }
 
     .sidebar__tweet {
